@@ -1,0 +1,25 @@
+{
+    "model": "GINConvNet",
+
+    "pro_len": 85,
+    "num_features_mol": 78,
+    "num_features_pro": 26,
+    "max_mol_atoms": 100,
+
+    "batch_size": 128,
+    "lr": 0.0005,
+    "epochs": 1,
+    "log_interval": 50, 
+    "num_workers": 15,
+
+    "dropout": 0.2,
+    "channels_output_dim":128,
+    "pro_embed_dim": 128,
+    "mol_output_dim": 32,
+    "pro_filter": 32,
+    "pro_kernel_size": 8,
+    "dense_hidden_sizes": [
+        1024, 256, 1
+    ]
+}
+

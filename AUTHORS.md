@@ -1,0 +1,1 @@
+The code was adapted by Astrid Stroobants from GraphDTA (https://github.com/thinng/GraphDTA) taken in Oct 2021.
